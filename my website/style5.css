@@ -1,0 +1,223 @@
+body{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("sdut-climbing-katahdin-in-maine-this-mountains-not-for-2015jun25.jpg");
+height:100vh;
+background-size:cover;
+backgroung-position:center;
+}
+
+#navigation li a
+{
+    color:white;
+    font-size:15px;
+    text-decoration:none;
+    padding:5px 20px;  
+}
+
+
+
+#navigation{
+float:left;
+height:10px;
+margin-top:3px;
+}
+
+#navigation li.active a
+{
+border:1px solid white;
+}
+
+#navigation li a:hover
+{
+border:1px solid white;
+}
+
+ul#navmenu{
+margin:0px
+padding:0px;
+list-style:none;
+}
+ul li{
+float:left;
+width:200px;
+ height:40px;
+font-family:"Roboto","sans-serit";
+font-size:15px;
+opacity:.8;
+line-height:40px;
+text-aligh:center;
+}
+
+ul li a{
+text-decoration:none;
+color:green;
+display:block;
+}
+
+ul li a:hover{
+background-color:black;
+}
+
+ul li ul li{
+display:none;
+}
+
+ul li:hover ul li{
+display:block;
+}
+
+body{
+margin:0 auto;
+padding:0px;
+text-allign:center;
+width:100%;
+font-family:"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Seri;
+background-color:Black;
+
+}
+#wrapper{
+margin:0 auto;
+padding:0px;
+text-allign:center;
+width:995px;
+
+}
+#wrapper h1{
+marfin-top:50px;
+font-size:45px;
+color:#1B4F72;
+}
+#wrapper h1 p{
+font-size:18px;
+}
+#contact_form_div{
+width:330px;
+margin-left:320px;
+padding:10px;
+backgrpund-color:#1B4F72;
+
+}
+#contact_form_div #contact_label
+{
+margin:15px;
+margin-bottom:30px;
+font-size:25px;
+font-family:Times;
+font-weight:bold;
+color:#030B5A;
+text-decoration:none;
+margin-top:100px;
+}
+#contact_form_div input[type="text"]
+{
+width:230px;
+height:40px;
+border-radius:2px;
+font-size:17px;
+padding-left:5px;
+border:none;
+}
+#contact_form_div textarea
+{
+width:230px;
+height:70px;
+border-radius:2px;
+font-size:17px;
+padding:5px;
+}
+#contact_form_div input[type="submit"]
+{
+width:230px;
+height:40px;
+border:none;
+border-radius:2px;
+font-size:17px;
+background-color:#D32F0B;
+border-bottom:3px solid #3498DB;
+color:white;
+font-weight:bold;
+}
+@media only screen and (min-width:700px) and (max-width:995px)
+{
+#wrapper
+{
+width:100%;
+}
+#wrapper h1
+{
+font-size:30px;
+}
+#contact_form_div 
+{
+width:50%;
+margin-left:25%;
+padding-left:0px;
+padding-right:0px;
+}
+#contact_form_div input[type="text"]
+{
+width=80%;
+}
+#contact_form_div input[type="submit"]
+{
+width=80%;
+}
+@media only screen and (min-width:400px) and (max-width:699px)
+{
+#wrapper
+{
+width:100%;
+}
+#wrapper h1
+{
+font-size:30px;
+}
+#contact_form_div 
+{
+width:60%;
+margin-left:20%;
+
+}
+#contact_form_div input[type="text"]
+{
+width=80%;
+}
+%contact_form_div_textarea
+{
+width=80%;
+}
+#contact_form_div input[type="submit"]
+{
+width=80%;
+}
+@media only screen and (min-width:100px) and (max-width:399px)
+{
+#wrapper
+{
+width:100%;
+}
+#wrapper h1
+{
+font-size:25px;
+}
+#contact_form_div
+{
+width:90%;
+margin-left:5%;
+padding-left:0px;
+padding-right:0px;
+}
+#contact_form_div input[type="text"]
+{
+width:80%;
+}
+#contact_form_div textarea
+{
+width:80%;
+}
+#contact_form_div input[type="submit"]
+{
+width=80%;
+}
+
+}
+}

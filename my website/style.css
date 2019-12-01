@@ -1,0 +1,141 @@
+
+.load{
+animation:slide 2s;
+}
+
+.slider{
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+width:100%;
+height:100vh;
+animation:slide 15s infinite;
+}
+
+
+
+#navigation li a
+{
+    color:white;
+    font-size:15px;
+    text-decoration:none;
+    padding:5px 20px;  
+}
+
+
+
+#navigation{
+float:left;
+height:10px;
+margin-top:3px;
+}
+
+#navigation li.active a
+{
+border:1px solid white;
+}
+
+#navigation li a:hover
+{
+border:1px solid white;
+}
+
+ul#navmenu{
+margin:0px
+padding:0px;
+list-style:none;
+}
+ul li{
+float:left;
+width:200px;
+ height:40px;
+font-family:"Roboto","sans-serit";
+font-size:15px;
+opacity:.8;
+line-height:40px;
+text-aligh:center;
+}
+
+ul li a{
+text-decoration:none;
+color:black;
+display:block;
+}
+
+ul li a:hover{
+background-color:black;
+}
+
+ul li ul li{
+display:none;
+}
+
+ul li:hover ul li{
+display:block;
+}
+#intro
+{
+  position:absolute;
+width:1200px;
+margin-left:0px;
+margin-top:0px;
+}
+h1#intro
+{
+color:white;
+text-transform:uppercase;
+font-size:70px;
+text-align:center;
+margin-top:250px;
+
+}
+#hero
+{
+
+  position:absolute;
+width:1200px;
+margin-left:0px;
+margin-top:0px;
+}
+h3#hero
+{
+color:white;
+font-size:20px;
+text-align:center;
+margin-top:350;
+}
+
+@keyframes slide{
+0%{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("2048-12.jpg");
+}
+20%{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("2048-12.jpg");
+}
+20.01%{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("hiking-25.jpg");
+}
+40%{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("hiking-25.jpg");
+}
+40.01%{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("photo-1505325681473-5e712b2eadca.jpg");
+}
+60%{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("photo-1505325681473-5e712b2eadca.jpg");
+}
+60.01%{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("world-edge.jpg");
+}
+80%{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("world-edge.jpg");
+}
+80.01%{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("off-grid-hiking-and-adventure.jpg");
+}
+100%{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("off-grid-hiking-and-adventure.jpg");
+}
+
+
+

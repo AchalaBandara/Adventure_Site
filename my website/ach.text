@@ -1,0 +1,50 @@
+<html>
+<link href='style.css' rel='styleshhet'>
+<ul>
+<li><a>HOME</a>
+<li><a>PLANNING TOOLS</a>
+<ul>
+<li><a>Checklist</a></li>
+<li><a>Budgeter</a></li>
+<li><a>Guest List</a></li>
+<li><a>Wedding Vision</a></li>
+<li><a>Weddind Day Timeline</a></li>
+</ul>
+</li>
+<li><a>LOCAL VENDORS</a>
+<ul>
+<li><a>Wedding Photographers</a></li>
+<li><a>Videographers</a></li>
+<li><a>Bridal Salons</a></li>
+<li><a>Florist</a></li>
+<li><a>Jewelors</a></li>
+<li><a>Djs</a></li>
+</ul>
+</li>
+<li><a>PHOTOS</a></li>
+<ul>
+<li><a>Wedding Ideas</a></li>
+<li><a>Wedding Cakes</a></li>
+<li><a>Hairstyles</a></li>
+<li><a>Bouquets</a></li>
+</ul>
+</li>
+<li><a>IDEAS AND ADVICE</a>
+<ul>
+<li><a>Getting Engaged</a></li>
+<li><a>Wedding Invitations</a></li>
+<li><a>Wedding Color+Themes</a></li>
+<li><a>Wedding Party</a></li>
+<li><a>Guests</a></li>
+</ul>
+</li>
+<li><a>SHOP</a>
+<ul>
+<li><a>Wedding Stationery</a></li>
+<li><a>Reception and Ceremony Decor</a></li>
+<li><a>Wedding Favors</a></li>
+<li><a>Bridal Party Gifts</a></li>
+</ul>
+</li>
+</ul>
+</html>
